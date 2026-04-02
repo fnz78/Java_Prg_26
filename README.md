@@ -78,3 +78,50 @@ These exercises helped strengthen my problem-solving, logic building, and applic
 1️⃣ Clone the Repository  
 ```bash
 git clone https://github.com/yourusername/java-programs.git
+```
+2️⃣ Navigate to the Folder
+```bash
+cd java-programs
+```
+
+3️⃣ Compile the Program
+```bash
+javac ProgramName.java
+```
+
+4️⃣ Run the Program
+```bash
+java ProgramName
+```
+
+🗄 Database Setup (For JDBC Programs)
+
+Create a database in MySQL:
+```bash
+
+CREATE DATABASE javaprograms;
+```
+
+Update database credentials in the Java program:
+```bash
+
+Connection con = DriverManager.getConnection(
+    "jdbc:mysql://localhost:3306/javaprograms",
+    "root",
+    "password"
+);
+```
+
+🧪 Sample Output
+Example: Prime Number Program
+
+Enter number of primes: 5
+Prime numbers are:
+2 3 5 7 11
+---
+👨‍💻 Author
+fnz78
+
+MSc Computer Science Student
+⭐ If you find this useful
+Give the repository a star ⭐ and feel free to explore the programs
