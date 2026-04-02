@@ -60,4 +60,21 @@ These exercises helped strengthen my problem-solving, logic building, and applic
 - Display Database Records using JTable  
 
 ---
+---
 
+## ⚙️ Technologies Used
+
+| Technology | Purpose |
+|----------|--------|
+| Java | Programming Language |
+| JDBC | Database Connectivity |
+| Swing | GUI Development |
+| MySQL | Database |
+
+---
+
+## 💻 How to Run the Programs
+
+1️⃣ Clone the Repository  
+```bash
+git clone https://github.com/yourusername/java-programs.git
