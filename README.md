@@ -127,7 +127,6 @@ Prime numbers are:
 
 fnz78
 
-MSc Computer Science Student
 ---
 ⭐ If you find this useful
 Give the repository a star ⭐ and feel free to explore the programs
