@@ -113,11 +113,15 @@ Connection con = DriverManager.getConnection(
 ```
 
 🧪 Sample Output
-Example: Prime Number Program
+
+Example: 
+
+Prime Number Program
 
 Enter number of primes: 5
 Prime numbers are:
 2 3 5 7 11
+
 ---
 👨‍💻 Author
 fnz78
