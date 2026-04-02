@@ -1,4 +1,4 @@
-# ☕ Java Programming Lab Repository
+# ☕ Java Programming Lab 26
 
 ## 📚 Overview
 
