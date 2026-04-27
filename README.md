@@ -1,6 +1,6 @@
-# ☕ Java Programming Lab 26
+#  Java Programming Lab 26
 
-## 📚 Overview
+##  Overview
 
 This repository contains a collection of Java programs developed during my university coursework while pursuing **MSc Computer Science**.
 
@@ -18,7 +18,7 @@ These exercises helped strengthen my problem-solving, logic building, and applic
 
 ---
 
-## 🎯 Learning Goals
+##  Learning Goals
 
 - ✔ Understand Java programming fundamentals  
 - ✔ Implement Object-Oriented Programming concepts  
@@ -28,7 +28,7 @@ These exercises helped strengthen my problem-solving, logic building, and applic
 
 ---
 
-## 🧠 Topics Covered
+##  Topics Covered
 
 ### 🔹 Basic Programs
 - Prime Number  
@@ -62,7 +62,7 @@ These exercises helped strengthen my problem-solving, logic building, and applic
 ---
 ---
 
-## ⚙️ Technologies Used
+##  Technologies Used
 
 | Technology | Purpose |
 |----------|--------|
@@ -73,7 +73,7 @@ These exercises helped strengthen my problem-solving, logic building, and applic
 
 ---
 
-## 💻 How to Run the Programs
+##  How to Run the Programs
 
 1️⃣ Clone the Repository  
 ```bash
@@ -94,7 +94,7 @@ javac ProgramName.java
 java ProgramName
 ```
 
-🗄 Database Setup (For JDBC Programs)
+ Database Setup (For JDBC Programs)
 
 Create a database in MySQL:
 ```bash
@@ -112,7 +112,7 @@ Connection con = DriverManager.getConnection(
 );
 ```
 
-🧪 Sample Output
+ Sample Output
 
 Example: 
 
