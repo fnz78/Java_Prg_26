@@ -1,0 +1,7 @@
+@startuml
+
+class CountNumbers {
+    +main(args : String[]) : void
+}
+
+@enduml
