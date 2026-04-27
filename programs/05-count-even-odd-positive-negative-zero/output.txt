@@ -1,0 +1,14 @@
+Enter size of array: 6
+Enter array elements:
+10
+-5
+0
+8
+-3
+7
+
+Count of even numbers     : 2
+Count of odd numbers      : 3
+Count of positive numbers : 3
+Count of negative numbers : 2
+Count of zeros            : 1
