@@ -1,0 +1,33 @@
+# Compiled Java files
+*.class
+
+# Log files
+*.log
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# JVM crash logs
+hs_err_pid*
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# Eclipse files
+.project
+.classpath
+.settings/
+
+# NetBeans files
+nbproject/private/
+build/
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
