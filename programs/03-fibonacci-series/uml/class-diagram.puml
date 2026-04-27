@@ -1,0 +1,7 @@
+@startuml
+
+class Fib {
+    +main(args : String[]) : void
+}
+
+@enduml
