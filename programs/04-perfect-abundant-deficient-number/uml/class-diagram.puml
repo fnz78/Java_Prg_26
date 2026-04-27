@@ -1,0 +1,7 @@
+@startuml
+
+class PerfectNumber {
+    +main(args : String[]) : void
+}
+
+@enduml
