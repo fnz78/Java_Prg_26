@@ -1,0 +1,8 @@
+Enter a number: 6
+6 is a Perfect Number
+
+Enter a number: 12
+12 is an Abundant Number
+
+Enter a number: 8
+8 is a Deficient Number
