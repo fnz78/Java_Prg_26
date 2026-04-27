@@ -1,0 +1,10 @@
+@startuml
+class Main {
+  - n : int
+  - i : int
+  - j : int
+  - c : int
+
+  + main(args : String[]) : void
+}
+@enduml
