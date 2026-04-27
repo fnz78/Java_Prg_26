@@ -1,0 +1,3 @@
+Enter No1: 12
+Enter No2: 18
+Gcd is: 6
