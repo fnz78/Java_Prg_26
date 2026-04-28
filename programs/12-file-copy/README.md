@@ -1,6 +1,6 @@
 # File Copy Program
 
-## Aim
+## problem statement
 To write a Java program to copy the contents of one file to another file using command line arguments.
 
 ## Language
