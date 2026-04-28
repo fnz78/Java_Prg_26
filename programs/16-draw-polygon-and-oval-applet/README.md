@@ -19,4 +19,5 @@ java
 10. Display output.
 11. Stop the program.
 
-## UML
+## UML Class diagram
+See `/uml` folder.
