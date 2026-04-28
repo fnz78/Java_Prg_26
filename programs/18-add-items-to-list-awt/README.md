@@ -19,3 +19,8 @@ java
    - Clear the TextField.
 8. Display updated List.
 9. Stop.
+    
+## UML Diagram
+
+See `UML/class-diagram.puml`
+
