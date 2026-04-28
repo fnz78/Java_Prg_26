@@ -1,0 +1,15 @@
+Enter the limit: 10
+
+Odd Thread : 1
+Odd Thread : 3
+Odd Thread : 5
+Odd Thread : 7
+Odd Thread : 9
+
+Even Thread : 2
+Even Thread : 4
+Even Thread : 6
+Even Thread : 8
+Even Thread : 10
+
+Application ends
