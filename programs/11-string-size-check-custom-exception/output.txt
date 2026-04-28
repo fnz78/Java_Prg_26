@@ -1,0 +1,7 @@
+Case 1:
+Enter a string: Hello
+String accepted: Hello
+
+Case 2:
+Enter a string: HelloWorldJava
+Exception Caught: String too large
