@@ -1,0 +1,92 @@
+Output:
+
+Window opens successfully.
+
+Examples of events displayed:
+
+Mouse Entered at (120, 80)
+Mouse Moved at (150, 100)
+Mouse Clicked at (200, 150)
+Mouse Dragged at (250, 180)
+Key Pressed: A at (250, 180)
+Key Typed: A at (250, 180)
+Key Released: A at (250, 180)
+Mouse Exited Window
+
+
+1. Mouse Entered at (120, 80)The cursor crosses the boundary and enters the active window area.
+
++------------------------------------------+
+| Applet Window                            |
++------------------------------------------+
+|                                          |
+|          (120, 80)                       |
+|             [Cursor IN]                  |
+|                                          |
+|                                          |
++------------------------------------------+
+ STATUS: MouseEntered event triggered.
+
+2. Mouse Moved at (150, 100)The mouse moves freely across the canvas without any buttons pressed.
++------------------------------------------+
+| Applet Window                            |
++------------------------------------------+
+|                                          |
+|             \                            |
+|              \--> (150, 100)             |
+|                   [Moving...]            |
+|                                          |
++------------------------------------------+
+ STATUS: MouseMoved event triggered.
+
+3. Mouse Clicked at (200, 150)A combination of "Pressed" and "Released" occurring at the same coordinate.
+
++------------------------------------------+
+| Applet Window                            |
++------------------------------------------+
+|                                          |
+|                                          |
+|                         *CLICK* |
+|                        (200, 150)        |
+|                                          |
++------------------------------------------+
+ STATUS: MouseClicked event triggered.
+
+4. Mouse Dragged at (250, 180)The mouse moves while a button (left/right) is held down. Often represented by a line or trail.
+
++------------------------------------------+
+| Applet Window                            |
++------------------------------------------+
+|                                          |
+|            (150, 100)                    |
+|                \                         |
+|                 \_______                 |
+|                         \(250, 180)      |
++------------------------------------------+
+ STATUS: MouseDragged (from previous pos to 250, 180).
+
+5. Key Events (Pressed, Typed, Released): 'A'These events are triggered by the keyboard. In your example, they occur while the focus is at the last mouse position (250, 180)
+
++------------------------------------------+
+| Applet Window                            |
++------------------------------------------+
+|                                          |
+|                                          |
+|                                          |
+|                         [ A ] <----------| Key: A
+|                        (250, 180)        |
++------------------------------------------+
+ STATUS: KeyPressed -> KeyTyped -> KeyReleased.
+
+6. Mouse Exited WindowThe cursor moves outside the boundaries of the Applet component.
+
+[Cursor OUT] <--/
++---------------------/--------------------+
+| Applet Window      /                     |
++------------------------------------------+
+|                                          |
+|                                          |
+|                                          |
+|                                          |
++------------------------------------------+
+ STATUS: MouseExited event triggered.
