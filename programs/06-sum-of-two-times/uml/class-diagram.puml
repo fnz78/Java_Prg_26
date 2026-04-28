@@ -1,0 +1,20 @@
+@startuml
+
+class Time {
+    - hour : int
+    - minute : int
+    - second : int
+
+    + Time(h:int, m:int, s:int)
+    + add(t:Time) : Time
+    + display() : void
+}
+
+class TimeSum {
+    + main(args:String[]) : void
+}
+
+TimeSum --> Time : creates object
+Time --> Time : add()
+
+@enduml
