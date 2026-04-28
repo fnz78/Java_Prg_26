@@ -1,3 +1,23 @@
+Sample Run 1 – Circle
+Choose Shape:
+1.Circle  2.Square  3.Triangle  4.Sphere  5.Cube
+1
+Enter radius: 5
+Circle
+Area = 78.53981633974483
+
+
+▶ Sample Run 2 – Triangle
+Choose Shape:
+1.Circle  2.Square  3.Triangle  4.Sphere  5.Cube
+3
+Enter base: 6
+Enter height: 4
+Triangle
+Area = 12.0
+
+
+▶ Sample Run 3 – Sphere
 Choose Shape:
 1.Circle  2.Square  3.Triangle  4.Sphere  5.Cube
 4
@@ -5,3 +25,13 @@ Enter radius: 3
 Sphere
 Surface Area = 113.09733552923255
 Volume = 113.09733552923254
+
+
+▶ Sample Run 4 – Cube
+Choose Shape:
+1.Circle  2.Square  3.Triangle  4.Sphere  5.Cube
+5
+Enter side: 4
+Cube
+Surface Area = 96.0
+Volume = 64.0
