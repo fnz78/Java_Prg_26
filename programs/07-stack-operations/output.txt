@@ -1,0 +1,23 @@
+Enter stack size: 5
+
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter option: 1
+Enter number to push: 10
+
+Enter option: 1
+Enter number to push: 20
+
+Enter option: 3
+Stack elements:
+20
+10
+
+Enter option: 2
+Popped: 20
+
+Enter option: 3
+Stack elements:
+10
