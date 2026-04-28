@@ -10,7 +10,7 @@ Total Mark and Percentage of each student.
 - MySQL
 
 
-## ALGORITHM
+## Algorithm
 1. Start program.
 2. Load JDBC driver.
 3. Establish connection with database.
