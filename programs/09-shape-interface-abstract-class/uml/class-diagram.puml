@@ -1,0 +1,32 @@
+@startuml
+
+interface Shape {
+  +display()
+}
+
+abstract class TwoDim {
+  +area()
+}
+
+abstract class ThreeDim {
+  +area()
+  +volume()
+}
+
+class Circle
+class Square
+class Triangle
+class Sphere
+class Cube
+
+Shape <|.. TwoDim
+Shape <|.. ThreeDim
+
+TwoDim <|-- Circle
+TwoDim <|-- Square
+TwoDim <|-- Triangle
+
+ThreeDim <|-- Sphere
+ThreeDim <|-- Cube
+
+@enduml
