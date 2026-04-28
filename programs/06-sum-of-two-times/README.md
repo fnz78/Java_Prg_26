@@ -15,3 +15,7 @@ Create two objects and find the sum of two times using Constructor.
 4. Handle carry for seconds and minutes.
 5. Display both times and their sum.
 
+## UML Class Diagram
+
+See `/uml` folder.
+
