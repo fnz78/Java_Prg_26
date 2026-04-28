@@ -1,0 +1,22 @@
+          +-----------------------+
+          |         Frame         | (Superclass)
+          +-----------------------+
+                      ^
+                      | (Generalization: Solid line)
+          +-----------------------+
+          |    AllEventsExample   |
+          +-----------------------+
+          | - msg : String        |
+          | - mouseX : int        |
+          | - mouseY : int        |
+          +-----------------------+
+          | + paint(g: Graphics)  |
+          | + main(args: String[])|
+          +-----------------------+
+           /          |          \
+          /           |           \  (Realization: Dashed lines)
+         v            v            v
++---------------++---------------++----------------------+
+| <<interface>> || <<interface>> ||    <<interface>>     |
+|  KeyListener  || MouseListener || MouseMotionListener  |
++---------------++---------------++----------------------+
