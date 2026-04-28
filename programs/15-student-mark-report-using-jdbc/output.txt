@@ -1,4 +1,0 @@
-Roll No    Name      Total    Percentage
-1          Arun      411      82.2%
-2          Meera     442      88.4%
-3          Rahul     335      67.0%
