@@ -1,0 +1,29 @@
+@startuml
+
+class Server {
+    -ServerSocket ss
+    -Socket s
+    -BufferedReader in
+    -PrintWriter out
+    +main(String[] args)
+}
+
+class Client {
+    -Socket s
+    -BufferedReader in
+    -PrintWriter out
+    -Scanner sc
+    +main(String[] args)
+}
+
+Server --> ServerSocket
+Server --> Socket
+Server --> BufferedReader
+Server --> PrintWriter
+
+Client --> Socket
+Client --> BufferedReader
+Client --> PrintWriter
+Client --> Scanner
+
+@enduml
