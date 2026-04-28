@@ -1,0 +1,54 @@
+@startuml
+
+class Shape{
+ +display()
+}
+
+class TwoDim{
+ +area()
+}
+
+class ThreeDim{
+ +area()
+ +volume()
+}
+
+class Circle{
+ -r : double
+ +area()
+}
+
+class Square{
+ -s : double
+ +area()
+}
+
+class Triangle{
+ -b : double
+ -h : double
+ +area()
+}
+
+class Sphere{
+ -r : double
+ +area()
+ +volume()
+}
+
+class Cube{
+ -s : double
+ +area()
+ +volume()
+}
+
+Shape <|-- TwoDim
+Shape <|-- ThreeDim
+
+TwoDim <|-- Circle
+TwoDim <|-- Square
+TwoDim <|-- Triangle
+
+ThreeDim <|-- Sphere
+ThreeDim <|-- Cube
+
+@enduml
