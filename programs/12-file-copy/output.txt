@@ -1,0 +1,11 @@
+Command Line Arguments:
+input.txt output.txt
+
+Output:
+File copied successfully.
+
+Content of input.txt:
+Hello Java Lab
+
+Content of output.txt:
+Hello Java Lab
