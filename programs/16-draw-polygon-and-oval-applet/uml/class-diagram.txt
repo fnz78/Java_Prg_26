@@ -1,0 +1,17 @@
++-----------------------+
+       |        Applet         |  <--- Superclass (java.applet)
+       +-----------------------+
+                   ^
+                   | (Inheritance: Solid line, hollow triangle)
+       +-----------------------+
+       |       NewApplet       |
+       +-----------------------+
+       | + init() : void       |
+       | + paint(g: Graphics)  |
+       +-----------------------+
+          /                \
+         / (Dependency)     \ (Dependency)
+        v                    v
++----------------+   +----------------+
+|    Graphics    |   |     Color      |
++----------------+   +----------------+
