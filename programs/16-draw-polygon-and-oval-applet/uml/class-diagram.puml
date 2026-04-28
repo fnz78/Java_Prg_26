@@ -1,0 +1,25 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+package java.applet {
+    class Applet
+}
+
+package java.awt {
+    class Graphics
+    class Color
+}
+
+class NewApplet {
+    +init() : void
+    +paint(g : Graphics) : void
+}
+
+' Inheritance
+Applet <|-- NewApplet
+
+' Dependencies
+NewApplet ..> Graphics : uses
+NewApplet ..> Color : uses
+
+@enduml
