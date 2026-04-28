@@ -1,10 +1,13 @@
 # Echo Server Client Socket
 
-## AIM
+## Problem statement
 Write a Java client/server program using Socket Programming (Echo Server).
 
-## DESCRIPTION
-This program demonstrates communication between a client and server using sockets.
+## language
+java
+
+
+
 
 - Server waits for connection.
 - Client sends message.
@@ -12,3 +15,6 @@ This program demonstrates communication between a client and server using socket
 - Server echoes same message back.
 - Communication continues until user enters "exit".
 
+## UML Class Diagram
+
+See `/uml` folder.
