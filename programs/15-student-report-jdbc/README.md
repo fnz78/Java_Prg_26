@@ -8,9 +8,7 @@ Write a Java program using JDBC to connect to a MySQL database, retrieve student
 - Java 
 - MySQL
 
-
-
-## ALGORITHM
+## Algorithm
 1. Start the program.
 2. Load MySQL JDBC Driver.
 3. Establish connection with MySQL database.
@@ -40,3 +38,4 @@ Fields:
 - sub5
 
 ## UML Class diagram
+See `/uml` folder.
