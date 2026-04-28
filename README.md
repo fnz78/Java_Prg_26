@@ -1,4 +1,4 @@
-#  Java Programming Lab
+# java-lab-showcase
 ##  Overview
 
 This repository contains a collection of Java programs developed during my university coursework while pursuing **MSc Computer Science**.
