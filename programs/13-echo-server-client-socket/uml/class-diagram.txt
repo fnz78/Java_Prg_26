@@ -1,0 +1,25 @@
++-------------------+
+|      Server       |
++-------------------+
+| - ServerSocket ss |
+| - Socket s        |
+| - BufferedReader  |
+| - PrintWriter out |
++-------------------+
+| + main()          |
++-------------------+
+
+        uses
+          |
+          v
+
++-------------------+
+|      Client       |
++-------------------+
+| - Socket s        |
+| - BufferedReader  |
+| - PrintWriter out |
+| - Scanner sc      |
++-------------------+
+| + main()          |
++-------------------+
