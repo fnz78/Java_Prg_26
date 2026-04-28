@@ -1,0 +1,27 @@
+@startuml
+
+class Thread
+
+class OddThread {
+  - n : int
+  + OddThread(n:int)
+  + run() : void
+}
+
+class EvenThread {
+  - n : int
+  + EvenThread(n:int)
+  + run() : void
+}
+
+class OddEvenThread {
+  + main(args:String[]) : void
+}
+
+Thread <|-- OddThread
+Thread <|-- EvenThread
+
+OddEvenThread --> OddThread
+OddEvenThread --> EvenThread
+
+@enduml
