@@ -1,0 +1,12 @@
++----------------------------------+
+|             FileCopy             |
++----------------------------------+
+|                                  |
++----------------------------------+
+| + main(String[] args) : void     |
++----------------------------------+
+
+Dependencies:
+FileCopy ----> FileInputStream
+FileCopy ----> FileOutputStream
+FileCopy ----> IOException
