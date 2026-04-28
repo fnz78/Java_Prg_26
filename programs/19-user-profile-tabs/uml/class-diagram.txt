@@ -1,0 +1,33 @@
+       +-----------------------+
+       |        JFrame         |  <---------------------------+
+       +-----------------------+                              |
+                  ^                                           | (Inheritance)
+                  | (Extends)                                 |
+       +-----------------------+                              |
+       |    UserProfileTabs    |                              |
+       +-----------------------+                              |
+       | - tabbedPane: JTabbedPane |                          |
+       +-----------------------+                              |
+       | + UserProfileTabs()   |                              |
+       | + main(args: String[])|                              |
+       +-----------*-----------+                              |
+                   |                                          |
+          (Contains/Composition)                              |
+                   v                                          |
+       +-----------------------+                              |
+       |     JTabbedPane       |                              |
+       +-----------o-----------+                              |
+                   |                                          |
+            1      |      3 (Manages)                         |
+       +-----------v-----------+                              |
+       |        JPanel         |------------------------------+
+       +-----------------------+             Note:
+       | - layout: GridLayout  |      Personal: 3 Labels, 3 Fields
+       +-----------*-----------+      Contact: 3 Labels, 3 Fields
+                   |                  Account: 2 Labels, 1 Field, 1 Pass
+         +---------+---------+
+         |         |         |
+         v         v         v
+    +--------+ +------------+ +----------------+
+    | JLabel | | JTextField | | JPasswordField |
+    +--------+ +------------+ +----------------+
