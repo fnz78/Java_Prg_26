@@ -1,0 +1,20 @@
+@startuml
+
+class ListExample {
+    - TextField tf
+    - Button btn
+    - List list
+    + ListExample()
+    + actionPerformed(e : ActionEvent) : void
+    + main(args : String[]) : void
+}
+
+ListExample --|> Frame
+ListExample ..|> ActionListener
+
+ListExample --> TextField
+ListExample --> Button
+ListExample --> List
+ListExample --> ActionEvent
+
+@enduml
