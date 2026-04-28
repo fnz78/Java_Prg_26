@@ -1,0 +1,44 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+class JFrame {
+}
+
+class UserProfileTabs {
+    - tabbedPane : JTabbedPane
+    + UserProfileTabs()
+    + {static} main(args : String[])
+}
+
+class JTabbedPane {
+}
+
+class JPanel {
+    - layout : GridLayout
+}
+
+class JLabel {
+}
+
+class JTextField {
+}
+
+class JPasswordField {
+}
+
+' Relationships
+JFrame <|-- UserProfileTabs : extends
+UserProfileTabs *-- JTabbedPane : contains
+JTabbedPane "1" o-- "3" JPanel : manages tabs
+
+JPanel *-- "2..3" JLabel : contains
+JPanel *-- "2..3" JTextField : contains
+JPanel *-- "0..1" JPasswordField : contains (Account Tab)
+
+note right of JPanel
+  Personal Info: 3 Labels, 3 Fields
+  Contact Info: 3 Labels, 3 Fields
+  Account Info: 2 Labels, 1 Field, 1 PasswordField
+end note
+
+@enduml
