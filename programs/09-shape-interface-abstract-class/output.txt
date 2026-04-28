@@ -1,0 +1,16 @@
+Choose Shape:
+1.Circle  2.Square  3.Triangle  4.Sphere  5.Cube
+1
+Enter radius: 5
+Circle
+Area = 78.53981633974483
+
+
+Choose Shape:
+1.Circle  2.Square  3.Triangle  4.Sphere  5.Cube
+4
+Enter radius: 3
+Sphere
+Surface Area = 113.09733552923255
+Volume = 113.09733552923254
+
