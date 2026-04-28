@@ -1,0 +1,21 @@
+@startuml
+
+class StackOperation {
+    - int[] arr
+    - int top
+    - int size
+    - Scanner sc
+
+    + StackOperation(int n)
+    + void push()
+    + void pop()
+    + void display()
+}
+
+class JavaApplication3 {
+    + main(String[] args)
+}
+
+JavaApplication3 --> StackOperation
+
+@enduml
