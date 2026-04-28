@@ -1,0 +1,40 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+class Table {
+    + {static} main(args : String[]) : void
+}
+
+class DriverManager <<utility>> {
+    + {static} getConnection(url: String, user: String, pass: String) : Connection
+}
+
+interface Connection <<interface>> {
+    + createStatement() : Statement
+    + prepareStatement(sql: String) : PreparedStatement
+    + close() : void
+}
+
+interface Statement <<interface>> {
+    + executeQuery(sql: String) : ResultSet
+    + executeUpdate(sql: String) : int
+    + close() : void
+}
+
+interface ResultSet <<interface>> {
+    + next() : boolean
+    + getString(columnLabel: String) : String
+    + getInt(columnLabel: String) : int
+    + close() : void
+}
+
+' Relationships
+Table ..> DriverManager : "calls"
+Table ..> Connection : "obtains"
+Table ..> Statement : "uses"
+Table ..> ResultSet : "processes"
+
+Connection ..> Statement : "creates"
+Statement ..> ResultSet : "returns"
+
+@enduml create a cpy paste class diaram
