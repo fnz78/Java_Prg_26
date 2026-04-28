@@ -1,0 +1,15 @@
+@startuml
+
+class FileCopy {
+    +main(String[] args) : void
+}
+
+class FileInputStream
+class FileOutputStream
+class IOException
+
+FileCopy --> FileInputStream : uses
+FileCopy --> FileOutputStream : uses
+FileCopy ..> IOException : handles
+
+@enduml
