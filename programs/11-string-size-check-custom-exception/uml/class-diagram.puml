@@ -1,0 +1,16 @@
+@startuml
+
+class MyExClass {
+    +MyExClass(message : String)
+}
+
+MyExClass --|> Exception
+
+class StringSizeCheck {
+    +checkString(str : String) : void
+    +main(args : String[]) : void
+}
+
+StringSizeCheck ..> MyExClass : throws
+
+@enduml
