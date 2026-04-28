@@ -5,7 +5,7 @@ Create a table student containing Roll No, Name and marks of five subjects.
 Write a Java program to read data from the table and display Roll No, Name,
 Total Mark and Percentage of each student.
 
-## SOFTWARE REQUIRED
+## languages
 - Java
 - MySQL
 
@@ -22,4 +22,8 @@ Total Mark and Percentage of each student.
 9. Display Roll No, Name, Total and Percentage.
 10. Close connection.
 11. Stop program.
+
+## UML Class Diagram
+
+See `/uml` folder.
 
