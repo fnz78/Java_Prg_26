@@ -1,0 +1,40 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+class Frame
+
+interface KeyListener {
+    +keyPressed(e: KeyEvent)
+    +keyReleased(e: KeyEvent)
+    +keyTyped(e: KeyEvent)
+}
+
+interface MouseListener {
+    +mouseClicked(e: MouseEvent)
+    +mousePressed(e: MouseEvent)
+    +mouseReleased(e: MouseEvent)
+    +mouseEntered(e: MouseEvent)
+    +mouseExited(e: MouseEvent)
+}
+
+interface MouseMotionListener {
+    +mouseDragged(e: MouseEvent)
+    +mouseMoved(e: MouseEvent)
+}
+
+class AllEventsExample {
+    -msg : String
+    -mouseX : int
+    -mouseY : int
+    +AllEventsExample()
+    +paint(g : Graphics) : void
+    +main(args : String[]) : void
+}
+
+' Relationships
+Frame <|-- AllEventsExample : extends
+KeyListener <|.. AllEventsExample : implements
+MouseListener <|.. AllEventsExample : implements
+MouseMotionListener <|.. AllEventsExample : implements
+
+@enduml
