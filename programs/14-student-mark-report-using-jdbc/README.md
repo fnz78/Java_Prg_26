@@ -23,4 +23,7 @@ Total Mark and Percentage of each student.
 10. Close connection.
 11. Stop program.
 
-## 
+## UML Class Diagram
+
+See `/uml` folder.
+
