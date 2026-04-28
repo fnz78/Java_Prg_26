@@ -1,12 +1,15 @@
 # Sum of Two Times
 
-## Aim
+## Problem Statement
 Write a Java program to create a class `Time` with data members:
 - hour
 - minute
 - second
 
 Create two objects and find the sum of two times using Constructor.
+
+## Language 
+Java 
 
 ## Algorithm
 1. Create class `Time` with hour, minute, second.
