@@ -1,5 +1,4 @@
 #  Java Programming Lab 26
-
 ##  Overview
 
 This repository contains a collection of Java programs developed during my university coursework while pursuing **MSc Computer Science**.
