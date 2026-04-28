@@ -19,3 +19,7 @@ java
 10. Stop.
 
 
+## UML Class Diagram
+
+See `/uml` folder.
+
