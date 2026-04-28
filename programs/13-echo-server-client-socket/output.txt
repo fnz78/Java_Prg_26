@@ -1,0 +1,20 @@
+SERVER OUTPUT
+-------------
+Server started. Waiting for client...
+Client connected.
+Client says: Hello
+Client says: Java
+Client says: exit
+Server closed.
+
+
+CLIENT OUTPUT
+-------------
+Enter message: Hello
+Echo: Hello
+
+Enter message: Java
+Echo: Java
+
+Enter message: exit
+Echo: exit
