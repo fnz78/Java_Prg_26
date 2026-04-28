@@ -1,0 +1,23 @@
+
+@startuml
+
+skinparam classAttributeIconSize 0
+
+class StudentReport {
+    +main(args : String[]) : void
+}
+
+class DriverManager
+
+class "java.sql.Connection" as Connection
+
+class "java.sql.Statement" as Statement
+
+class "java.sql.ResultSet" as ResultSet
+
+StudentReport --> DriverManager : calls
+DriverManager --> Connection : returns
+Connection --> Statement : creates
+Statement --> ResultSet : executes
+
+@enduml
