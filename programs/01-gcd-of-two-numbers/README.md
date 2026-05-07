@@ -1,4 +1,3 @@
-
 # Find GCD of Two Numbers
 
 ## Problem Statement
